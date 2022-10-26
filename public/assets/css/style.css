@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    width: 70%;
+    background-color: rgba(237, 219, 100, 0.17);
+    margin: 1.5rem auto;
+    border: 0.1rem solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+}
+
+#container_one, #container_two {
+    padding: 2rem;
+}
+
+#container_two {
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.15);
+}
+
+img {
+    width: 10rem;
+}
+
+figure {
+    width: 22rem;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    color: indianred;
+    font-size: 2rem;
+    padding: 1.8rem 1rem;
+    text-decoration-line: underline;
+}
+
+h3 {
+    color: forestgreen;
+    font-size: 2rem;
+    padding: 1.8rem 1rem;
+    text-decoration-line: underline;
+}
+
+#profile, #contact, #skill {
+    border-bottom: 0.1rem solid black;
+    width: 70%;
+    padding: 0.5rem;
+}
+
+#profile > p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+aside > p {
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    color: blue;
+}
+
+#contact > ul > li {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+#skill > ul > li {
+    list-style-type: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration-line: none;
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+i {
+    margin: 1rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+dt {
+    color: cornflowerblue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+dd > p {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
+
+section > ul > li {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+nav > a {
+    font-size: 2rem;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    font-size: 1.5rem;
+    border-left: 0.1rem solid black;
+    padding: 0.5rem;
+}
+
+input[type=text], textarea {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+fieldset {
+    padding: 0.5rem;
+    margin-top: 5rem;
+    border: none;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input[type=submit] {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}

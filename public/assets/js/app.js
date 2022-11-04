@@ -1,3 +1,9 @@
+import '/node_modules/jquery/dist/jquery.js';
+
+$('#title').click(function () {
+    alert("Ok");
+})
+
 let title1 = document.querySelector("#title");
 let title2 = document.getElementsByClassName("title2")[0];
 let title3 = document.getElementsByClassName("title2")[1];
